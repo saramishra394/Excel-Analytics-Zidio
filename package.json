@@ -1,0 +1,32 @@
+{
+  "name": "excel-analytics-backend",
+  "version": "1.0.0",
+  "description": "tool to analyze excel sheets",
+  "license": "ISC",
+  "author": "saurav-patel",
+  "type": "module",
+  "main": "Server.js",
+  "scripts": {
+    "start": "node Server.js",
+    "dev": "nodemon -r dotenv/config --experimental-json-modules server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "bcryptjs": "^3.0.2",
+    "cloudinary": "^1.41.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.17.0",
+    "mongoose": "^8.15.0",
+    "multer": "^2.0.0",
+    "multer-storage-cloudinary": "^4.0.0",
+    "openai": "^5.5.1",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
